@@ -17,10 +17,11 @@ a {
 }
 
 .header {
-    background: url(../img/bg.jpg) no-repeat;
+    background: url(../img/bg.jpg);
+    min-height: 793px;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    min-height: 793px;
 }
 
 .container {
@@ -201,6 +202,9 @@ a {
 .advantages {
     padding-top: 64px;
     background-color: #f4f9fd;
+    background-image: url(../img/style1.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
 .advantages-box {
@@ -209,8 +213,12 @@ a {
     padding-bottom: 76px;
 }
 
+.advantages-box--right{
+    
+}
+
 .advantages-box__info {
-    max-width: 455px;
+    max-width: 466px;
     padding-top: 60px;
 }
 
