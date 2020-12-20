@@ -203,8 +203,6 @@ a {
     background-color: #f4f9fd;
 }
 
-.container {}
-
 .advantages-box {
     display: flex;
     justify-content: space-between;
@@ -236,4 +234,4 @@ a {
     margin: 12px 0;
 }
 
-.advantages-box__images {}
+/* .advantages-box__images {} */
