@@ -6,4 +6,8 @@ $(function(){
         dotsClass: 'header-dots', /* свой стиль для индикаторов */
         autoplay: 2000 /* автоматическая смена слайдов */
     });
+
+    $('.menu__btn').on('click', function(){
+        $('.menu__list').slideToggle();
+    });
 });
