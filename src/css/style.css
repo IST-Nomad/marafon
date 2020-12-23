@@ -304,10 +304,8 @@ a {
 .footer__inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 61px;
     color: #272727;
-    padding: 0 40px;
+    padding: 20px 40px 17px;
 }
 
 .footer__link a+a {
@@ -373,6 +371,7 @@ a {
     }
     .reviews__items{
         flex-wrap: wrap;
+        justify-content: center;
     }
     .reviews__item{
         width: 48%;
@@ -439,10 +438,20 @@ a {
     }
     .reviews__item{
         width: 100%;
-        margin: 25px;
+        margin: 25px 0;
     }
     .reviews{
         padding: 38px 0;   
+    }
+}
+@media (max-width: 620px){
+    .footer__inner{
+        display: block;
+        text-align: center;
+        padding: 20px 10px 17px;
+    }
+    .footer__link{
+        margin-bottom: 10px;
     }
 }
 
