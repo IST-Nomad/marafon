@@ -212,13 +212,10 @@ a {
     padding-bottom: 76px;
 }
 
-<<<<<<< Updated upstream
-=======
 .advantages-box--right .advantages-box__info{
     order: 1;
 }
 
->>>>>>> Stashed changes
 .advantages-box__info {
     max-width: 466px;
     padding-top: 60px;
@@ -547,10 +544,6 @@ a {
         padding-left: 0;
     }
 }
-
-
-
-
 
 @media (min-width: 570px){
     .menu__list{ 
